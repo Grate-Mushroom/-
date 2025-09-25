@@ -3,7 +3,7 @@ import java.lang.*;
 import java.io.*;
 import java.util.Scanner;
 
-class Codechef
+class lab2
 {
 
 	//num 2
@@ -101,4 +101,5 @@ class Codechef
 		a5=trib(n);
         System.out.println("Trobanachi number "+n5+" = "+a5);
 	}
+
 }
