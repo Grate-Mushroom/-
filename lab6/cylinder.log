@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-11-16T10:22:27.830613800Z</date>
+  <millis>1763288547830</millis>
+  <nanos>613800</nanos>
+  <sequence>8</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>Volume</method>
+  <thread>3</thread>
+  <message>Cylinder Volume=25,12</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.833627400Z</date>
+  <millis>1763288547833</millis>
+  <nanos>627400</nanos>
+  <sequence>14</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>Volume</method>
+  <thread>3</thread>
+  <message>Cylinder Volume=25,12</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.833627400Z</date>
+  <millis>1763288547833</millis>
+  <nanos>627400</nanos>
+  <sequence>16</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>Show</method>
+  <thread>3</thread>
+  <message>Cylinder shown: area=12,56, height=2, volume=25,12</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.834630800Z</date>
+  <millis>1763288547834</millis>
+  <nanos>630800</nanos>
+  <sequence>18</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>Volume</method>
+  <thread>3</thread>
+  <message>Cylinder Volume=8</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.836597300Z</date>
+  <millis>1763288547836</millis>
+  <nanos>597300</nanos>
+  <sequence>25</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>Volume</method>
+  <thread>3</thread>
+  <message>Cylinder Volume=8</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.836597300Z</date>
+  <millis>1763288547836</millis>
+  <nanos>597300</nanos>
+  <sequence>27</sequence>
+  <logger>geometry3d.Cylinder</logger>
+  <level>FINEST</level>
+  <class>geometry3d.Cylinder</class>
+  <method>Show</method>
+  <thread>3</thread>
+  <message>Cylinder shown: area=4, height=2, volume=8</message>
+</record>
+</log>

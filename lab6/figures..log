@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-11-16T10:22:27.262486200Z</date>
+  <millis>1763288547262</millis>
+  <nanos>486200</nanos>
+  <sequence>3</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>&lt;init&gt;</method>
+  <thread>3</thread>
+  <message>Create Rectangle with: width=2, height=2</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.263483Z</date>
+  <millis>1763288547263</millis>
+  <nanos>483000</nanos>
+  <sequence>4</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Rectangle Area=4</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.266474800Z</date>
+  <millis>1763288547266</millis>
+  <nanos>474800</nanos>
+  <sequence>5</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Rectangle Area=4</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.267471900Z</date>
+  <millis>1763288547267</millis>
+  <nanos>471900</nanos>
+  <sequence>6</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>Show</method>
+  <thread>3</thread>
+  <message>Rectangle shown: width=2, height=2, area=4</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.834630800Z</date>
+  <millis>1763288547834</millis>
+  <nanos>630800</nanos>
+  <sequence>17</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Rectangle Area=4</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.834630800Z</date>
+  <millis>1763288547834</millis>
+  <nanos>630800</nanos>
+  <sequence>19</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Rectangle Area=4</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.834630800Z</date>
+  <millis>1763288547834</millis>
+  <nanos>630800</nanos>
+  <sequence>20</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Rectangle Area=4</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.835601Z</date>
+  <millis>1763288547835</millis>
+  <nanos>601000</nanos>
+  <sequence>21</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Rectangle Area=4</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.835601Z</date>
+  <millis>1763288547835</millis>
+  <nanos>601000</nanos>
+  <sequence>22</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>Show</method>
+  <thread>3</thread>
+  <message>Rectangle shown: width=2, height=2, area=4</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.835601Z</date>
+  <millis>1763288547835</millis>
+  <nanos>601000</nanos>
+  <sequence>23</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Rectangle Area=4</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.835601Z</date>
+  <millis>1763288547835</millis>
+  <nanos>601000</nanos>
+  <sequence>24</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Rectangle Area=4</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.836597300Z</date>
+  <millis>1763288547836</millis>
+  <nanos>597300</nanos>
+  <sequence>26</sequence>
+  <logger>geometry2d.Rectangle</logger>
+  <level>INFO</level>
+  <class>geometry2d.Rectangle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Rectangle Area=4</message>
+</record>
+</log>

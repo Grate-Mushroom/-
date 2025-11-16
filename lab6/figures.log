@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-11-16T10:22:26.233466300Z</date>
+  <millis>1763288546233</millis>
+  <nanos>466300</nanos>
+  <sequence>0</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>&lt;init&gt;</method>
+  <thread>3</thread>
+  <message>Created circle with radius=2</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:26.252415500Z</date>
+  <millis>1763288546252</millis>
+  <nanos>415500</nanos>
+  <sequence>1</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Circle Area=12,56</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:26.257403400Z</date>
+  <millis>1763288546257</millis>
+  <nanos>403400</nanos>
+  <sequence>2</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Show</method>
+  <thread>3</thread>
+  <message>void Show: radius=2</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.830613800Z</date>
+  <millis>1763288547830</millis>
+  <nanos>613800</nanos>
+  <sequence>7</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Circle Area=12,56</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.831611200Z</date>
+  <millis>1763288547831</millis>
+  <nanos>611200</nanos>
+  <sequence>9</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Circle Area=12,56</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.831611200Z</date>
+  <millis>1763288547831</millis>
+  <nanos>611200</nanos>
+  <sequence>10</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Circle Area=12,56</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.832608700Z</date>
+  <millis>1763288547832</millis>
+  <nanos>608700</nanos>
+  <sequence>11</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Show</method>
+  <thread>3</thread>
+  <message>void Show: radius=2</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.832608700Z</date>
+  <millis>1763288547832</millis>
+  <nanos>608700</nanos>
+  <sequence>12</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Circle Area=12,56</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.832608700Z</date>
+  <millis>1763288547832</millis>
+  <nanos>608700</nanos>
+  <sequence>13</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Circle Area=12,56</message>
+</record>
+<record>
+  <date>2025-11-16T10:22:27.833627400Z</date>
+  <millis>1763288547833</millis>
+  <nanos>627400</nanos>
+  <sequence>15</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Area</method>
+  <thread>3</thread>
+  <message>double Circle Area=12,56</message>
+</record>
+</log>
