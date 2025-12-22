@@ -1,0 +1,1165 @@
+2025-12-22 03:22:13 INFO  [main] com.weatherapp.MainApp - Java версия: 25.0.1
+2025-12-22 03:22:13 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Запуск Weather Application
+2025-12-22 03:22:14 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 03:22:14 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 03:22:14 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 03:22:14 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Приложение успешно запущено
+2025-12-22 03:22:15 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 03:22:15 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 03:22:15 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 03:22:15 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 03:22:24 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 03:22:24 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 03:22:29 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: mo
+2025-12-22 03:22:29 INFO  [Thread-8] c.w.service.GeocodingService - Found 5 suggestions for query: mo
+2025-12-22 03:22:30 INFO  [Thread-10] c.w.service.GeocodingService - Fetching city suggestions for query: mos
+2025-12-22 03:22:30 INFO  [Thread-10] c.w.service.GeocodingService - Found 5 suggestions for query: mos
+2025-12-22 03:22:32 INFO  [Thread-12] c.w.service.GeocodingService - Fetching city suggestions for query: mosk
+2025-12-22 03:22:32 INFO  [Thread-12] c.w.service.GeocodingService - Found 0 suggestions for query: mosk
+2025-12-22 03:22:35 INFO  [Thread-15] c.w.service.GeocodingService - Fetching city suggestions for query: moskow
+2025-12-22 03:22:36 INFO  [Thread-15] c.w.service.GeocodingService - Found 3 suggestions for query: moskow
+2025-12-22 03:22:36 INFO  [Thread-17] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 03:22:37 INFO  [Thread-17] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 03:22:37 INFO  [Thread-18] c.w.service.GeocodingService - Fetching city suggestions for query: Moscow, RU
+2025-12-22 03:22:37 INFO  [Thread-18] c.w.service.GeocodingService - Found 1 suggestions for query: Moscow, RU
+2025-12-22 03:22:39 INFO  [Thread-19] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 03:22:39 INFO  [Thread-19] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 03:22:39 INFO  [Thread-19] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-22 03:27:11 INFO  [main] com.weatherapp.MainApp - Java версия: 25.0.1
+2025-12-22 03:27:11 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Запуск Weather Application
+2025-12-22 03:27:12 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 03:27:12 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Moscow
+2025-12-22 03:27:12 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 03:27:12 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Приложение успешно запущено
+2025-12-22 03:27:12 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 03:27:13 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-22 03:27:13 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Moscow, RU
+2025-12-22 03:27:14 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Moscow, RU
+2025-12-22 03:39:37 INFO  [main] com.weatherapp.MainApp - Java версия: 25.0.1
+2025-12-22 03:39:37 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Запуск Weather Application
+2025-12-22 03:39:38 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 03:39:38 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Moscow
+2025-12-22 03:39:38 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 03:39:39 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Приложение успешно запущено
+2025-12-22 03:39:39 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 03:39:39 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-22 03:39:40 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Moscow, RU
+2025-12-22 03:39:40 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Moscow, RU
+2025-12-22 03:46:03 INFO  [main] com.weatherapp.MainApp - Java версия: 25.0.1
+2025-12-22 03:46:03 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Запуск Weather Application
+2025-12-22 03:46:04 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 03:46:04 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Moscow
+2025-12-22 03:46:04 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 03:46:04 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Приложение успешно запущено
+2025-12-22 03:46:04 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 03:46:04 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Moscow, RU
+2025-12-22 03:46:05 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-22 03:46:05 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Moscow, RU
+2025-12-22 03:46:19 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: rt
+2025-12-22 03:46:20 INFO  [Thread-7] c.w.service.GeocodingService - Found 5 suggestions for query: rt
+2025-12-22 03:46:23 INFO  [Thread-9] c.w.service.GeocodingService - Fetching city suggestions for query: ке
+2025-12-22 03:46:23 INFO  [Thread-9] c.w.service.GeocodingService - Found 4 suggestions for query: ке
+2025-12-22 03:46:24 INFO  [Thread-11] c.w.service.GeocodingService - Fetching city suggestions for query: кем
+2025-12-22 03:46:24 INFO  [Thread-11] c.w.service.GeocodingService - Found 5 suggestions for query: кем
+2025-12-22 03:46:25 INFO  [Thread-15] c.w.service.GeocodingService - Fetching city suggestions for query: кемеро
+2025-12-22 03:46:25 INFO  [Thread-15] c.w.service.GeocodingService - Found 1 suggestions for query: кемеро
+2025-12-22 03:46:27 INFO  [Thread-17] c.w.service.GeocodingService - Fetching city suggestions for query: кемеров
+2025-12-22 03:46:27 INFO  [Thread-17] c.w.service.GeocodingService - Found 0 suggestions for query: кемеров
+2025-12-22 03:46:28 INFO  [Thread-19] c.w.service.GeocodingService - Fetching city suggestions for query: кемерово
+2025-12-22 03:46:28 INFO  [Thread-19] c.w.service.GeocodingService - Found 1 suggestions for query: кемерово
+2025-12-22 03:46:29 INFO  [Thread-21] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 03:46:29 INFO  [Thread-21] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 03:46:29 INFO  [Thread-21] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 03:46:30 INFO  [Thread-22] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 03:46:30 INFO  [Thread-22] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 03:46:49 INFO  [main] com.weatherapp.MainApp - Java версия: 25.0.1
+2025-12-22 03:46:49 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Запуск Weather Application
+2025-12-22 03:46:50 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 03:46:50 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 03:46:50 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 03:46:50 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Приложение успешно запущено
+2025-12-22 03:46:50 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 03:46:50 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 03:46:51 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 03:46:51 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 03:48:13 INFO  [main] com.weatherapp.MainApp - Java версия: 25.0.1
+2025-12-22 03:48:13 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Запуск Weather Application
+2025-12-22 03:48:13 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 03:48:13 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 03:48:13 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 03:48:14 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Приложение успешно запущено
+2025-12-22 03:48:14 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 03:48:14 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 03:48:15 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 03:48:15 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 03:56:30 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 03:56:30 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 03:56:30 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 03:56:30 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 03:56:31 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 03:56:31 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 03:56:31 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 03:56:32 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 03:56:32 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 04:10:47 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 04:10:47 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 04:10:47 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 04:10:47 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=0.0, lon=0.0
+2025-12-22 04:10:48 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 04:10:48 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=0.0, lon=0.0
+2025-12-22 04:10:48 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 04:10:48 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 04:10:49 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 04:10:51 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=0.0, lon=0.0
+2025-12-22 04:11:00 INFO  [Thread-7] c.weatherapp.service.WeatherService - Fetching current weather for lat=0.0, lon=0.0
+2025-12-22 04:11:00 INFO  [Thread-7] c.weatherapp.service.WeatherService - Fetching forecast for lat=0.0, lon=0.0
+2025-12-22 04:11:07 INFO  [Thread-9] c.w.service.GeocodingService - Fetching city suggestions for query: dj
+2025-12-22 04:11:07 INFO  [Thread-9] c.w.service.GeocodingService - Found 5 suggestions for query: dj
+2025-12-22 04:11:08 INFO  [Thread-11] c.weatherapp.service.WeatherService - Fetching current weather for lat=0.0, lon=0.0
+2025-12-22 04:11:08 INFO  [Thread-11] c.weatherapp.service.WeatherService - Fetching forecast for lat=0.0, lon=0.0
+2025-12-22 04:11:08 INFO  [Thread-12] c.w.service.GeocodingService - Fetching city suggestions for query: Djibouti, DJ
+2025-12-22 04:11:09 INFO  [Thread-12] c.w.service.GeocodingService - Found 1 suggestions for query: Djibouti, DJ
+2025-12-22 04:11:13 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching forecast for lat=0.0, lon=0.0
+2025-12-22 04:11:14 INFO  [Thread-6] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 04:11:15 INFO  [Thread-13] c.weatherapp.service.WeatherService - Fetching current weather for lat=0.0, lon=0.0
+2025-12-22 04:11:15 INFO  [Thread-13] c.weatherapp.service.WeatherService - Fetching forecast for lat=0.0, lon=0.0
+2025-12-22 04:12:24 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 04:12:24 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 04:12:24 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 04:12:24 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=0.0, lon=0.0
+2025-12-22 04:12:25 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 04:12:25 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=0.0, lon=0.0
+2025-12-22 04:12:25 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 04:12:25 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 04:12:25 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 04:12:28 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=0.0, lon=0.0
+2025-12-22 04:12:47 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching forecast for lat=0.0, lon=0.0
+2025-12-22 04:12:47 INFO  [Thread-6] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 04:13:18 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 04:13:18 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 04:13:18 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 04:13:18 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=0.0, lon=0.0
+2025-12-22 04:13:19 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 04:13:19 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=0.0, lon=0.0
+2025-12-22 04:13:19 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 04:13:20 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 04:13:20 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 04:13:21 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 04:13:31 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: mo
+2025-12-22 04:13:31 INFO  [Thread-8] c.w.service.GeocodingService - Found 5 suggestions for query: mo
+2025-12-22 04:13:32 INFO  [Thread-11] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 04:13:32 INFO  [Thread-11] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 04:13:34 INFO  [Thread-13] c.w.service.GeocodingService - Fetching city suggestions for query: xKemerovo, RU
+2025-12-22 04:13:34 INFO  [Thread-13] c.w.service.GeocodingService - Found 0 suggestions for query: xKemerovo, RU
+2025-12-22 04:13:35 INFO  [Thread-15] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 04:13:35 INFO  [Thread-15] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 04:13:36 INFO  [Thread-17] c.w.service.GeocodingService - Fetching city suggestions for query: emerovo, RU
+2025-12-22 04:13:36 INFO  [Thread-17] c.w.service.GeocodingService - Found 0 suggestions for query: emerovo, RU
+2025-12-22 04:13:36 INFO  [Thread-27] c.w.service.GeocodingService - Fetching city suggestions for query: RU
+2025-12-22 04:13:36 INFO  [Thread-27] c.w.service.GeocodingService - Found 5 suggestions for query: RU
+2025-12-22 04:13:40 INFO  [Thread-29] c.w.service.GeocodingService - Fetching city suggestions for query: mo
+2025-12-22 04:13:40 INFO  [Thread-29] c.w.service.GeocodingService - Found 5 suggestions for query: mo
+2025-12-22 04:13:41 INFO  [Thread-31] c.w.service.GeocodingService - Fetching city suggestions for query: mos
+2025-12-22 04:13:41 INFO  [Thread-31] c.w.service.GeocodingService - Found 5 suggestions for query: mos
+2025-12-22 04:13:42 INFO  [Thread-33] c.w.service.GeocodingService - Fetching city suggestions for query: mosk
+2025-12-22 04:13:42 INFO  [Thread-33] c.w.service.GeocodingService - Found 0 suggestions for query: mosk
+2025-12-22 04:13:43 INFO  [Thread-35] c.w.service.GeocodingService - Fetching city suggestions for query: mosko
+2025-12-22 04:13:43 INFO  [Thread-35] c.w.service.GeocodingService - Found 5 suggestions for query: mosko
+2025-12-22 04:13:43 INFO  [Thread-37] c.w.service.GeocodingService - Fetching city suggestions for query: moskow
+2025-12-22 04:13:43 INFO  [Thread-37] c.w.service.GeocodingService - Found 3 suggestions for query: moskow
+2025-12-22 04:13:44 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 04:13:44 INFO  [Thread-39] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 04:13:44 INFO  [Thread-6] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 04:13:44 INFO  [Thread-39] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 04:13:45 INFO  [Thread-40] c.w.service.GeocodingService - Fetching city suggestions for query: Moscow, RU
+2025-12-22 04:13:45 INFO  [Thread-40] c.w.service.GeocodingService - Found 1 suggestions for query: Moscow, RU
+2025-12-22 04:13:47 INFO  [Thread-41] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 04:13:47 INFO  [Thread-41] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 04:13:48 INFO  [Thread-41] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-22 04:15:06 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 04:15:07 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 04:15:07 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Moscow
+2025-12-22 04:15:07 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 04:15:07 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 04:15:08 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 04:15:08 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-22 04:15:09 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Moscow, RU
+2025-12-22 04:15:09 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Moscow, RU
+2025-12-22 04:15:11 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 04:15:33 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 04:15:33 INFO  [Thread-6] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-22 04:22:07 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 04:22:07 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 04:22:07 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Moscow
+2025-12-22 04:22:07 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 04:22:08 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 04:22:08 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 04:22:08 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-22 04:22:09 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Moscow, RU
+2025-12-22 04:22:09 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Moscow, RU
+2025-12-22 04:22:15 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 04:22:16 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 04:22:16 INFO  [Thread-6] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-22 04:22:32 INFO  [Thread-7] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 04:22:32 INFO  [Thread-7] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 04:22:32 INFO  [Thread-8] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 04:22:32 INFO  [Thread-8] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 04:22:45 INFO  [Thread-10] c.w.service.GeocodingService - Fetching city suggestions for query: ke
+2025-12-22 04:22:45 INFO  [Thread-10] c.w.service.GeocodingService - Found 4 suggestions for query: ke
+2025-12-22 04:22:45 INFO  [Thread-12] c.w.service.GeocodingService - Fetching city suggestions for query: kem
+2025-12-22 04:22:45 INFO  [Thread-12] c.w.service.GeocodingService - Found 5 suggestions for query: kem
+2025-12-22 04:22:46 INFO  [Thread-15] c.w.service.GeocodingService - Fetching city suggestions for query: kemer
+2025-12-22 04:22:46 INFO  [Thread-15] c.w.service.GeocodingService - Found 5 suggestions for query: kemer
+2025-12-22 04:22:47 INFO  [Thread-17] c.w.service.GeocodingService - Fetching city suggestions for query: kemero
+2025-12-22 04:22:47 INFO  [Thread-17] c.w.service.GeocodingService - Found 1 suggestions for query: kemero
+2025-12-22 04:22:48 INFO  [Thread-19] c.weatherapp.service.WeatherService - Fetching current weather for lat=10.983333, lon=-9.216667
+2025-12-22 04:22:48 INFO  [Thread-19] c.weatherapp.service.WeatherService - Fetching forecast for lat=10.983333, lon=-9.216667
+2025-12-22 04:22:48 INFO  [Thread-19] c.weatherapp.service.DatabaseService - Saved favorite city: Kéniéro
+2025-12-22 04:22:48 INFO  [Thread-20] c.w.service.GeocodingService - Fetching city suggestions for query: Kéniéro, GN
+2025-12-22 04:22:48 INFO  [Thread-20] c.w.service.GeocodingService - Found 3 suggestions for query: Kéniéro, GN
+2025-12-22 04:22:52 INFO  [Thread-22] c.weatherapp.service.WeatherService - Fetching current weather for lat=11.3998252, lon=-8.7955432
+2025-12-22 04:22:52 INFO  [Thread-22] c.weatherapp.service.WeatherService - Fetching forecast for lat=11.3998252, lon=-8.7955432
+2025-12-22 04:22:52 INFO  [Thread-22] c.weatherapp.service.DatabaseService - Saved favorite city: Keniero
+2025-12-22 04:22:52 INFO  [Thread-23] c.w.service.GeocodingService - Fetching city suggestions for query: Keniero, GN
+2025-12-22 04:22:52 INFO  [Thread-23] c.w.service.GeocodingService - Found 3 suggestions for query: Keniero, GN
+2025-12-22 04:23:14 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 04:23:14 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 04:23:14 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Keniero
+2025-12-22 04:23:14 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=11.3998252, lon=-8.7955432
+2025-12-22 04:23:15 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 04:23:15 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=11.3998252, lon=-8.7955432
+2025-12-22 04:23:15 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Keniero, GN
+2025-12-22 04:23:15 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Keniero
+2025-12-22 04:23:15 INFO  [Thread-5] c.w.service.GeocodingService - Found 3 suggestions for query: Keniero, GN
+2025-12-22 04:30:20 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 04:30:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 04:30:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Keniero
+2025-12-22 04:30:21 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=11.3998252, lon=-8.7955432
+2025-12-22 04:30:21 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 04:30:21 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=11.3998252, lon=-8.7955432
+2025-12-22 04:30:21 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Keniero
+2025-12-22 04:30:22 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Keniero, GN
+2025-12-22 04:30:22 INFO  [Thread-5] c.w.service.GeocodingService - Found 3 suggestions for query: Keniero, GN
+2025-12-22 04:44:27 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 04:44:28 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 04:44:28 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Keniero
+2025-12-22 04:44:28 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=11.3998252, lon=-8.7955432
+2025-12-22 04:44:28 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 04:44:28 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=11.3998252, lon=-8.7955432
+2025-12-22 04:44:29 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Keniero
+2025-12-22 04:44:29 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Keniero, GN
+2025-12-22 04:44:30 INFO  [Thread-5] c.w.service.GeocodingService - Found 3 suggestions for query: Keniero, GN
+2025-12-22 04:44:34 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: Keniero, 
+2025-12-22 04:44:35 INFO  [Thread-7] c.w.service.GeocodingService - Found 4 suggestions for query: Keniero, 
+2025-12-22 04:44:35 INFO  [Thread-15] c.w.service.GeocodingService - Fetching city suggestions for query: Ke
+2025-12-22 04:44:35 INFO  [Thread-15] c.w.service.GeocodingService - Found 4 suggestions for query: Ke
+2025-12-22 04:44:40 INFO  [Thread-17] c.w.service.GeocodingService - Fetching city suggestions for query: mo
+2025-12-22 04:44:40 INFO  [Thread-17] c.w.service.GeocodingService - Found 5 suggestions for query: mo
+2025-12-22 04:44:41 INFO  [Thread-19] c.w.service.GeocodingService - Fetching city suggestions for query: mos
+2025-12-22 04:44:41 INFO  [Thread-19] c.w.service.GeocodingService - Found 5 suggestions for query: mos
+2025-12-22 04:44:45 INFO  [Thread-22] c.w.service.GeocodingService - Fetching city suggestions for query: mosko
+2025-12-22 04:44:45 INFO  [Thread-22] c.w.service.GeocodingService - Found 5 suggestions for query: mosko
+2025-12-22 04:44:47 INFO  [Thread-24] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 04:44:48 INFO  [Thread-25] c.w.service.GeocodingService - Fetching city suggestions for query: Moscow, RU
+2025-12-22 04:44:48 INFO  [Thread-25] c.w.service.GeocodingService - Found 1 suggestions for query: Moscow, RU
+2025-12-22 04:45:07 INFO  [Thread-24] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 04:45:07 INFO  [Thread-24] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-22 05:00:30 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 05:00:30 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 05:00:30 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Moscow
+2025-12-22 05:00:30 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-22 05:00:31 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 05:00:31 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-22 05:00:31 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-22 05:00:32 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Moscow, RU
+2025-12-22 05:00:33 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Moscow, RU
+2025-12-22 05:00:47 INFO  [Thread-11] c.w.service.GeocodingService - Fetching city suggestions for query: kemeri
+2025-12-22 05:00:47 INFO  [Thread-11] c.w.service.GeocodingService - Found 5 suggestions for query: kemeri
+2025-12-22 05:00:49 INFO  [Thread-13] c.weatherapp.service.WeatherService - Fetching current weather for lat=56.7301172, lon=21.5031723
+2025-12-22 05:00:50 INFO  [Thread-14] c.w.service.GeocodingService - Fetching city suggestions for query: Ķemeri, LV
+2025-12-22 05:00:50 INFO  [Thread-14] c.w.service.GeocodingService - Found 5 suggestions for query: Ķemeri, LV
+2025-12-22 05:00:53 INFO  [Thread-15] c.weatherapp.service.WeatherService - Fetching current weather for lat=56.9446595, lon=23.4913149
+2025-12-22 05:00:53 INFO  [Thread-15] c.weatherapp.service.WeatherService - Fetching forecast for lat=56.9446595, lon=23.4913149
+2025-12-22 05:00:54 INFO  [Thread-15] c.weatherapp.service.DatabaseService - Saved favorite city: Ķemeri
+2025-12-22 05:01:09 INFO  [Thread-13] c.weatherapp.service.WeatherService - Fetching forecast for lat=56.9446595, lon=23.4913149
+2025-12-22 05:03:59 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 05:03:59 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 05:03:59 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ķemeri
+2025-12-22 05:03:59 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=56.9446595, lon=23.4913149
+2025-12-22 05:04:00 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 05:04:00 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=56.9446595, lon=23.4913149
+2025-12-22 05:04:00 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ķemeri
+2025-12-22 05:04:01 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Ķemeri, LV
+2025-12-22 05:04:01 INFO  [Thread-5] c.w.service.GeocodingService - Found 5 suggestions for query: Ķemeri, LV
+2025-12-22 05:04:05 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=56.7301172, lon=21.5031723
+2025-12-22 05:04:24 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching forecast for lat=56.7301172, lon=21.5031723
+2025-12-22 05:04:25 INFO  [Thread-6] c.weatherapp.service.DatabaseService - Saved favorite city: Ķemeri
+2025-12-22 05:07:49 INFO  [Thread-11] c.w.service.GeocodingService - Fetching city suggestions for query: kemer
+2025-12-22 05:07:49 INFO  [Thread-11] c.w.service.GeocodingService - Found 5 suggestions for query: kemer
+2025-12-22 05:07:50 INFO  [Thread-13] c.w.service.GeocodingService - Fetching city suggestions for query: kemero
+2025-12-22 05:07:50 INFO  [Thread-13] c.w.service.GeocodingService - Found 1 suggestions for query: kemero
+2025-12-22 05:07:51 INFO  [Thread-15] c.w.service.GeocodingService - Fetching city suggestions for query: kemerov
+2025-12-22 05:07:51 INFO  [Thread-15] c.w.service.GeocodingService - Found 0 suggestions for query: kemerov
+2025-12-22 05:07:52 INFO  [Thread-17] c.w.service.GeocodingService - Fetching city suggestions for query: kemerovo
+2025-12-22 05:07:52 INFO  [Thread-17] c.w.service.GeocodingService - Found 1 suggestions for query: kemerovo
+2025-12-22 05:07:54 INFO  [Thread-19] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 05:07:54 INFO  [Thread-19] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 05:07:54 INFO  [Thread-20] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 05:07:54 INFO  [Thread-19] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 05:07:54 INFO  [Thread-20] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 05:14:52 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 05:14:52 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 05:14:52 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 05:14:52 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 05:14:53 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 05:14:53 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 05:14:53 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 05:14:54 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 05:14:54 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 05:15:00 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: mp
+2025-12-22 05:15:00 INFO  [Thread-7] c.w.service.GeocodingService - Found 1 suggestions for query: mp
+2025-12-22 05:15:03 INFO  [Thread-9] c.weatherapp.service.WeatherService - Fetching current weather for lat=22.6189602, lon=76.0498576
+2025-12-22 05:15:03 INFO  [Thread-10] c.w.service.GeocodingService - Fetching city suggestions for query: Kampel, IN
+2025-12-22 05:15:03 INFO  [Thread-10] c.w.service.GeocodingService - Found 2 suggestions for query: Kampel, IN
+2025-12-22 05:15:22 INFO  [Thread-9] c.weatherapp.service.WeatherService - Fetching forecast for lat=22.6189602, lon=76.0498576
+2025-12-22 05:15:22 INFO  [Thread-9] c.weatherapp.service.DatabaseService - Saved favorite city: Kampel
+2025-12-22 05:15:57 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 05:15:58 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 05:15:58 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kampel
+2025-12-22 05:15:58 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=22.6189602, lon=76.0498576
+2025-12-22 05:15:58 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 05:15:58 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=22.6189602, lon=76.0498576
+2025-12-22 05:15:59 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kampel
+2025-12-22 05:16:00 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kampel, IN
+2025-12-22 05:16:00 INFO  [Thread-5] c.w.service.GeocodingService - Found 2 suggestions for query: Kampel, IN
+2025-12-22 05:16:05 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: jkj
+2025-12-22 05:16:05 INFO  [Thread-8] c.w.service.GeocodingService - Found 0 suggestions for query: jkj
+2025-12-22 05:16:09 INFO  [Thread-10] c.w.service.GeocodingService - Fetching city suggestions for query: ty
+2025-12-22 05:16:09 INFO  [Thread-10] c.w.service.GeocodingService - Found 5 suggestions for query: ty
+2025-12-22 05:16:10 INFO  [Thread-12] c.weatherapp.service.WeatherService - Fetching current weather for lat=11.0431945, lon=-2.438351
+2025-12-22 05:16:11 INFO  [Thread-13] c.w.service.GeocodingService - Fetching city suggestions for query: Ty, BF
+2025-12-22 05:16:11 INFO  [Thread-13] c.w.service.GeocodingService - Found 2 suggestions for query: Ty, BF
+2025-12-22 05:16:30 INFO  [Thread-12] c.weatherapp.service.WeatherService - Fetching forecast for lat=11.0431945, lon=-2.438351
+2025-12-22 05:16:30 INFO  [Thread-12] c.weatherapp.service.DatabaseService - Saved favorite city: Ty
+2025-12-22 05:33:54 INFO  [Thread-15] c.w.service.GeocodingService - Fetching city suggestions for query: gj
+2025-12-22 05:33:54 INFO  [Thread-15] c.w.service.GeocodingService - Found 1 suggestions for query: gj
+2025-12-22 05:34:00 INFO  [Thread-17] c.w.service.GeocodingService - Fetching city suggestions for query: ke
+2025-12-22 05:34:00 INFO  [Thread-17] c.w.service.GeocodingService - Found 4 suggestions for query: ke
+2025-12-22 05:34:03 INFO  [Thread-19] c.w.service.GeocodingService - Fetching city suggestions for query: kem
+2025-12-22 05:34:03 INFO  [Thread-19] c.w.service.GeocodingService - Found 5 suggestions for query: kem
+2025-12-22 05:34:05 INFO  [Thread-21] c.w.service.GeocodingService - Fetching city suggestions for query: keme
+2025-12-22 05:34:05 INFO  [Thread-21] c.w.service.GeocodingService - Found 5 suggestions for query: keme
+2025-12-22 05:34:07 INFO  [Thread-23] c.w.service.GeocodingService - Fetching city suggestions for query: kem
+2025-12-22 05:34:07 INFO  [Thread-23] c.w.service.GeocodingService - Found 5 suggestions for query: kem
+2025-12-22 05:34:09 INFO  [Thread-25] c.weatherapp.service.WeatherService - Fetching current weather for lat=64.9550895, lon=34.5697446
+2025-12-22 05:34:09 INFO  [Thread-25] c.weatherapp.service.WeatherService - Fetching forecast for lat=64.9550895, lon=34.5697446
+2025-12-22 05:34:10 INFO  [Thread-25] c.weatherapp.service.DatabaseService - Saved favorite city: Kemi
+2025-12-22 05:34:11 INFO  [Thread-26] c.w.service.GeocodingService - Fetching city suggestions for query: Kemi, RU
+2025-12-22 05:34:11 INFO  [Thread-26] c.w.service.GeocodingService - Found 1 suggestions for query: Kemi, RU
+2025-12-22 05:45:06 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 05:45:06 ERROR [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Failed to initialize database
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "exist": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:132)
+	at org.sqlite.core.DB.prepare(DB.java:264)
+	at org.sqlite.jdbc3.JDBC3Statement.lambda$execute$0(JDBC3Statement.java:54)
+	at org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:43)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.service.DatabaseService.initializeDatabase(DatabaseService.java:33)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.service.DatabaseService.<init>(DatabaseService.java:15)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.controller.MainController.initialize(MainController.java:74)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at javafx.base@21.0.3/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@21.0.3/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2688)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2563)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2531)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.MainApp.start(MainApp.java:21)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:138)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2025-12-22 05:45:07 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 05:45:50 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 05:45:51 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 05:45:51 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemi
+2025-12-22 05:45:51 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=64.9550895, lon=34.5697446
+2025-12-22 05:45:51 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 05:45:52 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=64.9550895, lon=34.5697446
+2025-12-22 05:45:52 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kemi, RU
+2025-12-22 05:45:52 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemi
+2025-12-22 05:45:52 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Kemi, RU
+2025-12-22 05:56:28 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 05:56:28 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 05:56:28 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemi
+2025-12-22 05:56:28 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=64.9550895, lon=34.5697446
+2025-12-22 05:56:29 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 05:56:29 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=64.9550895, lon=34.5697446
+2025-12-22 05:56:29 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemi
+2025-12-22 05:56:30 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kemi, RU
+2025-12-22 05:56:30 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Kemi, RU
+2025-12-22 05:56:35 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=64.9550895, lon=34.5697446
+2025-12-22 05:56:35 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching forecast for lat=64.9550895, lon=34.5697446
+2025-12-22 05:58:25 INFO  [Thread-7] c.weatherapp.service.WeatherService - Fetching current weather for lat=64.9550895, lon=34.5697446
+2025-12-22 05:58:25 INFO  [Thread-7] c.weatherapp.service.WeatherService - Fetching forecast for lat=64.9550895, lon=34.5697446
+2025-12-22 06:02:05 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 06:02:06 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 06:02:06 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemi
+2025-12-22 06:02:06 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=64.9550895, lon=34.5697446
+2025-12-22 06:02:06 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 06:02:07 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: Kemi, RU
+2025-12-22 06:02:07 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=64.9550895, lon=34.5697446
+2025-12-22 06:02:07 INFO  [Thread-5] c.w.service.GeocodingService - Found 1 suggestions for query: Kemi, RU
+2025-12-22 06:02:07 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemi
+2025-12-22 06:02:30 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: re
+2025-12-22 06:02:30 INFO  [Thread-7] c.w.service.GeocodingService - Found 5 suggestions for query: re
+2025-12-22 06:02:31 INFO  [Thread-9] c.w.service.GeocodingService - Fetching city suggestions for query: ret
+2025-12-22 06:02:32 INFO  [Thread-9] c.w.service.GeocodingService - Found 3 suggestions for query: ret
+2025-12-22 06:02:32 INFO  [Thread-11] c.w.service.GeocodingService - Fetching city suggestions for query: retg
+2025-12-22 06:02:32 INFO  [Thread-11] c.w.service.GeocodingService - Found 0 suggestions for query: retg
+2025-12-22 06:02:33 INFO  [Thread-13] c.w.service.GeocodingService - Fetching city suggestions for query: retgh
+2025-12-22 06:02:33 INFO  [Thread-13] c.w.service.GeocodingService - Found 0 suggestions for query: retgh
+2025-12-22 06:02:33 INFO  [Thread-15] c.w.service.GeocodingService - Fetching city suggestions for query: retghj
+2025-12-22 06:02:34 INFO  [Thread-15] c.w.service.GeocodingService - Found 0 suggestions for query: retghj
+2025-12-22 06:02:34 INFO  [Thread-17] c.w.service.GeocodingService - Fetching city suggestions for query: retghju
+2025-12-22 06:02:34 INFO  [Thread-17] c.w.service.GeocodingService - Found 0 suggestions for query: retghju
+2025-12-22 06:02:34 INFO  [Thread-19] c.w.service.GeocodingService - Fetching city suggestions for query: retghjut
+2025-12-22 06:02:35 INFO  [Thread-19] c.w.service.GeocodingService - Found 0 suggestions for query: retghjut
+2025-12-22 06:02:36 INFO  [Thread-21] c.w.service.GeocodingService - Fetching city suggestions for query: retghju
+2025-12-22 06:02:36 INFO  [Thread-21] c.w.service.GeocodingService - Found 0 suggestions for query: retghju
+2025-12-22 06:02:36 INFO  [Thread-23] c.w.service.GeocodingService - Fetching city suggestions for query: retghj
+2025-12-22 06:02:36 INFO  [Thread-23] c.w.service.GeocodingService - Found 0 suggestions for query: retghj
+2025-12-22 06:02:36 INFO  [Thread-25] c.w.service.GeocodingService - Fetching city suggestions for query: retgh
+2025-12-22 06:02:36 INFO  [Thread-25] c.w.service.GeocodingService - Found 0 suggestions for query: retgh
+2025-12-22 06:02:36 INFO  [Thread-27] c.w.service.GeocodingService - Fetching city suggestions for query: retg
+2025-12-22 06:02:36 INFO  [Thread-27] c.w.service.GeocodingService - Found 0 suggestions for query: retg
+2025-12-22 06:02:37 INFO  [Thread-29] c.w.service.GeocodingService - Fetching city suggestions for query: ret
+2025-12-22 06:02:37 INFO  [Thread-31] c.w.service.GeocodingService - Fetching city suggestions for query: re
+2025-12-22 06:02:37 INFO  [Thread-31] c.w.service.GeocodingService - Found 5 suggestions for query: re
+2025-12-22 06:02:38 INFO  [Thread-33] c.w.service.GeocodingService - Fetching city suggestions for query: rek
+2025-12-22 06:02:38 INFO  [Thread-33] c.w.service.GeocodingService - Found 3 suggestions for query: rek
+2025-12-22 06:02:56 INFO  [Thread-29] c.w.service.GeocodingService - Found 3 suggestions for query: ret
+2025-12-22 06:03:00 INFO  [Thread-35] c.weatherapp.service.WeatherService - Fetching current weather for lat=51.4346791, lon=4.9498546
+2025-12-22 06:03:00 INFO  [Thread-36] c.w.service.GeocodingService - Fetching city suggestions for query: Reth, NL
+2025-12-22 06:03:00 INFO  [Thread-36] c.w.service.GeocodingService - Found 1 suggestions for query: Reth, NL
+2025-12-22 06:03:00 INFO  [Thread-35] c.weatherapp.service.WeatherService - Fetching forecast for lat=51.4346791, lon=4.9498546
+2025-12-22 06:03:01 INFO  [Thread-35] c.weatherapp.service.DatabaseService - Saved favorite city: Reth
+2025-12-22 06:12:21 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 06:12:22 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 06:12:22 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Reth
+2025-12-22 06:12:22 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=51.4346791, lon=4.9498546
+2025-12-22 06:12:22 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 06:12:22 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Reth, NL
+2025-12-22 06:12:22 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=51.4346791, lon=4.9498546
+2025-12-22 06:12:23 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Reth, NL
+2025-12-22 06:12:23 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Reth
+2025-12-22 06:12:28 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: kg
+2025-12-22 06:12:28 INFO  [Thread-5] c.w.service.GeocodingService - Found 5 suggestions for query: kg
+2025-12-22 06:12:29 INFO  [Thread-6] c.w.service.GeocodingService - Fetching city suggestions for query: kgj
+2025-12-22 06:12:29 INFO  [Thread-6] c.w.service.GeocodingService - Found 0 suggestions for query: kgj
+2025-12-22 06:12:29 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: kgju
+2025-12-22 06:12:30 INFO  [Thread-7] c.w.service.GeocodingService - Found 0 suggestions for query: kgju
+2025-12-22 06:12:30 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: kgj
+2025-12-22 06:12:30 INFO  [Thread-8] c.w.service.GeocodingService - Found 0 suggestions for query: kgj
+2025-12-22 06:12:31 INFO  [Thread-9] c.w.service.GeocodingService - Fetching city suggestions for query: kg
+2025-12-22 06:12:31 INFO  [Thread-9] c.w.service.GeocodingService - Found 5 suggestions for query: kg
+2025-12-22 06:12:34 INFO  [Thread-10] c.w.service.GeocodingService - Fetching city suggestions for query: ke
+2025-12-22 06:12:34 INFO  [Thread-10] c.w.service.GeocodingService - Found 4 suggestions for query: ke
+2025-12-22 06:12:36 INFO  [Thread-11] c.w.service.GeocodingService - Fetching city suggestions for query: kem
+2025-12-22 06:12:36 INFO  [Thread-11] c.w.service.GeocodingService - Found 5 suggestions for query: kem
+2025-12-22 06:12:37 INFO  [Thread-12] c.w.service.GeocodingService - Fetching city suggestions for query: keme
+2025-12-22 06:12:37 INFO  [Thread-12] c.w.service.GeocodingService - Found 5 suggestions for query: keme
+2025-12-22 06:12:38 INFO  [Thread-13] c.w.service.GeocodingService - Fetching city suggestions for query: kemer
+2025-12-22 06:12:38 INFO  [Thread-13] c.w.service.GeocodingService - Found 5 suggestions for query: kemer
+2025-12-22 06:13:46 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 06:13:47 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 06:13:47 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Reth
+2025-12-22 06:13:47 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=51.4346791, lon=4.9498546
+2025-12-22 06:13:47 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 06:13:47 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Reth, NL
+2025-12-22 06:13:47 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=51.4346791, lon=4.9498546
+2025-12-22 06:13:48 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Reth, NL
+2025-12-22 06:13:48 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Reth
+2025-12-22 06:13:52 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: d;
+2025-12-22 06:13:52 INFO  [Thread-5] c.w.service.GeocodingService - Found 5 suggestions for query: d;
+2025-12-22 06:13:53 INFO  [Thread-6] c.w.service.GeocodingService - Fetching city suggestions for query: d;p
+2025-12-22 06:13:53 INFO  [Thread-6] c.w.service.GeocodingService - Found 0 suggestions for query: d;p
+2025-12-22 06:13:54 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: d;
+2025-12-22 06:13:54 INFO  [Thread-7] c.w.service.GeocodingService - Found 5 suggestions for query: d;
+2025-12-22 06:13:55 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: di
+2025-12-22 06:13:55 INFO  [Thread-8] c.w.service.GeocodingService - Found 5 suggestions for query: di
+2025-12-22 06:13:56 INFO  [Thread-9] c.w.service.GeocodingService - Fetching city suggestions for query: dis
+2025-12-22 06:13:56 INFO  [Thread-9] c.w.service.GeocodingService - Found 4 suggestions for query: dis
+2025-12-22 06:13:58 INFO  [Thread-10] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 06:13:58 INFO  [Thread-11] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:13:58 INFO  [Thread-11] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:14:09 INFO  [Thread-12] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 06:14:09 INFO  [Thread-12] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 06:14:09 INFO  [Thread-12] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:14:20 INFO  [Thread-10] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 06:14:20 INFO  [Thread-10] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:34:21 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 06:34:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 06:34:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:34:21 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 06:34:22 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 06:34:22 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:34:22 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 06:34:22 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:34:22 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:35:11 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 06:35:12 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 06:35:12 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:35:12 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 06:35:12 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 06:35:12 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:35:12 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 06:35:12 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:35:13 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:50:23 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 06:50:24 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 06:50:24 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:50:24 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 06:50:24 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 06:50:24 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:50:25 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 06:50:25 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:50:25 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:52:48 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 06:52:49 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 06:52:49 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:52:49 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 06:52:50 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 06:52:50 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:52:50 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 06:52:50 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:52:50 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:53:57 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 06:53:58 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 06:53:58 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:53:58 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 06:53:58 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 06:53:58 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:53:58 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 06:53:58 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:53:59 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:55:50 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 06:55:51 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 06:55:51 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:55:51 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 06:55:51 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 06:55:51 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:55:51 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 06:55:51 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:55:51 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:57:30 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 06:57:30 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 06:57:30 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:57:30 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 06:57:31 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 06:57:31 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:57:31 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 06:57:31 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:57:31 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:58:22 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 06:58:23 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 06:58:23 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 06:58:23 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 06:58:23 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 06:58:23 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:58:23 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 06:58:23 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 06:58:24 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:03:16 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:03:17 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:03:17 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:03:17 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 07:03:17 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:03:17 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:03:17 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 07:03:18 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:03:18 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:04:26 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:04:27 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:04:27 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:04:27 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 07:04:27 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:04:27 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:04:27 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 07:04:27 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:04:27 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:05:27 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:05:28 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:05:28 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:05:28 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 07:05:28 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:05:28 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:05:28 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 07:05:28 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:05:28 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:12:45 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:12:45 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:12:45 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:12:45 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 07:12:46 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:12:46 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:12:46 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 07:12:46 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:12:46 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:16:53 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:16:54 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:16:54 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:16:54 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 07:16:54 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:16:54 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:16:55 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:16:55 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 07:16:55 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:17:48 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:17:48 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:17:48 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:17:48 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 07:17:49 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:17:49 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:17:49 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 07:17:49 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:17:50 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:18:08 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:18:08 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:18:08 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:18:08 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 07:18:09 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:18:09 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:18:09 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 07:18:09 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:18:09 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:31:03 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:31:03 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:31:03 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:31:03 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 07:31:04 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:31:04 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:31:04 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 07:31:04 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:31:04 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:37:40 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:37:41 ERROR [JavaFX Application Thread] com.weatherapp.MainApp - Error loading app
+javafx.fxml.LoadException: 
+/C:/Users/htneveStranger/IdeaProjects/Wether/target/classes/fxml/main.fxml:64
+
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2722)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2700)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2563)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2531)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.MainApp.start(MainApp.java:21)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:138)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.IllegalArgumentException: Can not set javafx.scene.layout.HBox field com.weatherapp.controller.MainController.forecastContainer to javafx.scene.layout.VBox
+	at java.base/jdk.internal.reflect.FieldAccessorImpl.throwSetIllegalArgumentException(FieldAccessorImpl.java:223)
+	at java.base/jdk.internal.reflect.FieldAccessorImpl.throwSetIllegalArgumentException(FieldAccessorImpl.java:227)
+	at java.base/jdk.internal.reflect.MethodHandleObjectFieldAccessorImpl.set(MethodHandleObjectFieldAccessorImpl.java:115)
+	at java.base/java.lang.reflect.Field.set(Field.java:832)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.injectFields(FXMLLoader.java:1175)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader$ValueElement.processValue(FXMLLoader.java:870)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader$ValueElement.processStartElement(FXMLLoader.java:764)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2853)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2649)
+	... 12 common frames omitted
+2025-12-22 07:38:21 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:38:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:38:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:38:21 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 07:38:22 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:38:22 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:38:22 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 07:38:22 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:38:22 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:48:21 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:48:21 ERROR [JavaFX Application Thread] com.weatherapp.MainApp - Error loading app
+javafx.fxml.LoadException: 
+/C:/Users/htneveStranger/IdeaProjects/Wether/target/classes/fxml/main.fxml
+
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2722)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2665)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2563)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2531)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.MainApp.start(MainApp.java:21)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:138)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[76,6]
+Message: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652)
+	at java.xml/javax.xml.stream.util.StreamReaderDelegate.next(StreamReaderDelegate.java:84)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2635)
+	... 12 common frames omitted
+2025-12-22 07:50:18 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:50:19 ERROR [JavaFX Application Thread] com.weatherapp.MainApp - Error loading app
+javafx.fxml.LoadException: 
+/C:/Users/htneveStranger/IdeaProjects/Wether/target/classes/fxml/main.fxml:67
+
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2722)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2700)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2563)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2531)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.MainApp.start(MainApp.java:21)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:138)
+	at javafx.graphics@21.0.3/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21.0.3/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.IllegalArgumentException: Can not set javafx.scene.layout.HBox field com.weatherapp.controller.MainController.forecastContainer to javafx.scene.layout.VBox
+	at java.base/jdk.internal.reflect.FieldAccessorImpl.throwSetIllegalArgumentException(FieldAccessorImpl.java:223)
+	at java.base/jdk.internal.reflect.FieldAccessorImpl.throwSetIllegalArgumentException(FieldAccessorImpl.java:227)
+	at java.base/jdk.internal.reflect.MethodHandleObjectFieldAccessorImpl.set(MethodHandleObjectFieldAccessorImpl.java:115)
+	at java.base/java.lang.reflect.Field.set(Field.java:832)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.injectFields(FXMLLoader.java:1175)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader$ValueElement.processValue(FXMLLoader.java:870)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader$ValueElement.processStartElement(FXMLLoader.java:764)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2853)
+	at javafx.fxml@21.0.3/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2649)
+	... 12 common frames omitted
+2025-12-22 07:53:54 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:53:54 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:53:54 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:53:54 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 07:53:55 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:53:55 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:53:55 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 07:53:55 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:53:55 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:54:48 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:54:49 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:54:49 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:54:49 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=14.9107317, lon=49.9941294
+2025-12-22 07:54:49 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:54:49 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:54:49 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=14.9107317, lon=49.9941294
+2025-12-22 07:54:49 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Ad Dis ash Sharqiyah, YE
+2025-12-22 07:54:50 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Ad Dis ash Sharqiyah
+2025-12-22 07:55:07 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: nk
+2025-12-22 07:55:07 INFO  [Thread-5] c.w.service.GeocodingService - Found 5 suggestions for query: nk
+2025-12-22 07:55:08 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=64.175029, lon=-51.7355386
+2025-12-22 07:55:08 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: Nuuk, GL
+2025-12-22 07:55:08 INFO  [Thread-7] c.w.service.GeocodingService - Found 2 suggestions for query: Nuuk, GL
+2025-12-22 07:55:30 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching forecast for lat=64.175029, lon=-51.7355386
+2025-12-22 07:55:31 INFO  [Thread-6] c.weatherapp.service.DatabaseService - Saved favorite city: Nuuk
+2025-12-22 07:56:30 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:56:31 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:56:31 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Nuuk
+2025-12-22 07:56:31 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=64.175029, lon=-51.7355386
+2025-12-22 07:56:31 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:56:31 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Nuuk, GL
+2025-12-22 07:56:31 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=64.175029, lon=-51.7355386
+2025-12-22 07:56:31 INFO  [Thread-4] c.w.service.GeocodingService - Found 2 suggestions for query: Nuuk, GL
+2025-12-22 07:56:32 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Nuuk
+2025-12-22 07:56:49 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:56:50 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:56:50 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Nuuk
+2025-12-22 07:56:50 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=64.175029, lon=-51.7355386
+2025-12-22 07:56:50 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:56:50 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Nuuk, GL
+2025-12-22 07:56:51 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=64.175029, lon=-51.7355386
+2025-12-22 07:56:51 INFO  [Thread-4] c.w.service.GeocodingService - Found 2 suggestions for query: Nuuk, GL
+2025-12-22 07:56:51 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Nuuk
+2025-12-22 07:57:19 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:57:20 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:57:20 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Nuuk
+2025-12-22 07:57:20 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=64.175029, lon=-51.7355386
+2025-12-22 07:57:20 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:57:20 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Nuuk, GL
+2025-12-22 07:57:20 INFO  [Thread-4] c.w.service.GeocodingService - Found 2 suggestions for query: Nuuk, GL
+2025-12-22 07:57:20 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=64.175029, lon=-51.7355386
+2025-12-22 07:57:21 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Nuuk
+2025-12-22 07:58:05 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:58:06 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:58:06 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Nuuk
+2025-12-22 07:58:06 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=64.175029, lon=-51.7355386
+2025-12-22 07:58:06 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:58:06 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Nuuk, GL
+2025-12-22 07:58:06 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=64.175029, lon=-51.7355386
+2025-12-22 07:58:06 INFO  [Thread-4] c.w.service.GeocodingService - Found 2 suggestions for query: Nuuk, GL
+2025-12-22 07:58:07 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Nuuk
+2025-12-22 07:58:51 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: rt
+2025-12-22 07:58:51 INFO  [Thread-5] c.w.service.GeocodingService - Found 5 suggestions for query: rt
+2025-12-22 07:58:51 INFO  [Thread-6] c.w.service.GeocodingService - Fetching city suggestions for query: rtv
+2025-12-22 07:58:51 INFO  [Thread-6] c.w.service.GeocodingService - Found 1 suggestions for query: rtv
+2025-12-22 07:58:52 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: rtvt
+2025-12-22 07:58:52 INFO  [Thread-7] c.w.service.GeocodingService - Found 0 suggestions for query: rtvt
+2025-12-22 07:58:52 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: rtvth
+2025-12-22 07:58:52 INFO  [Thread-8] c.w.service.GeocodingService - Found 0 suggestions for query: rtvth
+2025-12-22 07:58:52 INFO  [Thread-9] c.w.service.GeocodingService - Fetching city suggestions for query: rtvthj
+2025-12-22 07:58:52 INFO  [Thread-9] c.w.service.GeocodingService - Found 0 suggestions for query: rtvthj
+2025-12-22 07:58:53 INFO  [Thread-10] c.w.service.GeocodingService - Fetching city suggestions for query: rtvthjd
+2025-12-22 07:58:53 INFO  [Thread-10] c.w.service.GeocodingService - Found 0 suggestions for query: rtvthjd
+2025-12-22 07:58:54 INFO  [Thread-11] c.w.service.GeocodingService - Fetching city suggestions for query: rtvthj
+2025-12-22 07:58:54 INFO  [Thread-11] c.w.service.GeocodingService - Found 0 suggestions for query: rtvthj
+2025-12-22 07:58:55 INFO  [Thread-12] c.w.service.GeocodingService - Fetching city suggestions for query: rtvth
+2025-12-22 07:58:55 INFO  [Thread-13] c.w.service.GeocodingService - Fetching city suggestions for query: rtvt
+2025-12-22 07:58:55 INFO  [Thread-14] c.w.service.GeocodingService - Fetching city suggestions for query: rtv
+2025-12-22 07:58:55 INFO  [Thread-15] c.w.service.GeocodingService - Fetching city suggestions for query: rt
+2025-12-22 07:58:55 INFO  [Thread-12] c.w.service.GeocodingService - Found 0 suggestions for query: rtvth
+2025-12-22 07:58:55 INFO  [Thread-13] c.w.service.GeocodingService - Found 0 suggestions for query: rtvt
+2025-12-22 07:58:55 INFO  [Thread-14] c.w.service.GeocodingService - Found 1 suggestions for query: rtv
+2025-12-22 07:58:55 INFO  [Thread-15] c.w.service.GeocodingService - Found 5 suggestions for query: rt
+2025-12-22 07:58:56 INFO  [Thread-16] c.w.service.GeocodingService - Fetching city suggestions for query: ke
+2025-12-22 07:58:56 INFO  [Thread-16] c.w.service.GeocodingService - Found 4 suggestions for query: ke
+2025-12-22 07:58:57 INFO  [Thread-17] c.w.service.GeocodingService - Fetching city suggestions for query: kem
+2025-12-22 07:58:57 INFO  [Thread-17] c.w.service.GeocodingService - Found 5 suggestions for query: kem
+2025-12-22 07:58:58 INFO  [Thread-18] c.w.service.GeocodingService - Fetching city suggestions for query: keme
+2025-12-22 07:58:58 INFO  [Thread-18] c.w.service.GeocodingService - Found 5 suggestions for query: keme
+2025-12-22 07:58:59 INFO  [Thread-19] c.w.service.GeocodingService - Fetching city suggestions for query: kemer
+2025-12-22 07:58:59 INFO  [Thread-19] c.w.service.GeocodingService - Found 5 suggestions for query: kemer
+2025-12-22 07:58:59 INFO  [Thread-20] c.w.service.GeocodingService - Fetching city suggestions for query: kemero
+2025-12-22 07:59:00 INFO  [Thread-20] c.w.service.GeocodingService - Found 1 suggestions for query: kemero
+2025-12-22 07:59:01 INFO  [Thread-21] c.w.service.GeocodingService - Fetching city suggestions for query: kemerov
+2025-12-22 07:59:01 INFO  [Thread-21] c.w.service.GeocodingService - Found 0 suggestions for query: kemerov
+2025-12-22 07:59:02 INFO  [Thread-22] c.w.service.GeocodingService - Fetching city suggestions for query: kemerovo
+2025-12-22 07:59:03 INFO  [Thread-22] c.w.service.GeocodingService - Found 1 suggestions for query: kemerovo
+2025-12-22 07:59:04 INFO  [Thread-23] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 07:59:04 INFO  [Thread-24] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 07:59:04 INFO  [Thread-24] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 07:59:04 INFO  [Thread-23] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 07:59:04 INFO  [Thread-23] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 07:59:38 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 07:59:39 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 07:59:39 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 07:59:39 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 07:59:39 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 07:59:39 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 07:59:39 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 07:59:39 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 07:59:39 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:02:58 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:02:59 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:02:59 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:02:59 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:02:59 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:02:59 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:02:59 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:02:59 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:02:59 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:03:27 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:03:28 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:03:28 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:03:28 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:03:28 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:03:28 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:03:28 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:03:28 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:03:29 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:05:32 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:05:33 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:05:33 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:05:33 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:05:33 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:05:33 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:05:33 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:05:33 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:05:34 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:05:55 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:05:56 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:05:56 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:05:56 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:05:56 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:05:56 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:05:56 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:05:56 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:05:57 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:06:21 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:06:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:06:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:06:21 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:06:22 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:06:22 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:06:22 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:06:22 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:06:22 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:07:07 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:07:07 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:07:07 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:07:07 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:07:08 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:07:08 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:07:08 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:07:08 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:07:08 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:09:48 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:09:49 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:09:49 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:09:49 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:09:49 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:09:49 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:09:49 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:09:49 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:09:49 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:10:13 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:10:13 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:10:13 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:10:13 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:10:14 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:10:14 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:10:14 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:10:14 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:10:14 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:10:29 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:10:29 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:10:29 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:10:29 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:10:30 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:10:30 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:10:30 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:10:30 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:10:30 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:13:52 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:13:53 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:13:53 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:13:53 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:13:53 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:13:53 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:13:53 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:13:54 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:13:54 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:14:20 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:14:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:14:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:14:21 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:14:21 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:14:21 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:14:21 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:14:22 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:15:01 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:15:01 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:15:01 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:15:01 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:15:02 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:15:02 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:15:02 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:15:02 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:15:02 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:15:55 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:15:56 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:15:56 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:15:56 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:15:56 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:15:56 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:15:56 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:15:56 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:15:57 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:16:26 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:16:27 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:16:27 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:16:27 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:16:27 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:16:27 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:16:27 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:16:28 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:16:28 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:18:04 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:18:05 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:18:05 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:18:05 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:18:05 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:18:05 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:18:06 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:18:06 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:18:06 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:19:54 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:19:55 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:19:55 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:19:55 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:19:55 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:19:55 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:19:55 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:19:55 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:19:56 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:22:18 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:22:18 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:22:18 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:22:18 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:22:19 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:22:19 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:22:19 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:22:19 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:22:19 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:22:51 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:22:52 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:22:52 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:22:52 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:22:52 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:22:52 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:22:53 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:22:53 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:22:53 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:25:11 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:25:11 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:25:11 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 08:25:11 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:25:12 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:25:12 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:25:12 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:25:12 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:25:12 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:25:37 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: yu
+2025-12-22 08:25:37 INFO  [Thread-5] c.w.service.GeocodingService - Found 5 suggestions for query: yu
+2025-12-22 08:25:39 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=29.5647398, lon=106.5478767
+2025-12-22 08:25:39 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: Chongqing, CN
+2025-12-22 08:25:39 INFO  [Thread-7] c.w.service.GeocodingService - Found 4 suggestions for query: Chongqing, CN
+2025-12-22 08:25:59 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching forecast for lat=29.5647398, lon=106.5478767
+2025-12-22 08:25:59 INFO  [Thread-6] c.weatherapp.service.DatabaseService - Saved favorite city: Chongqing
+2025-12-22 08:28:40 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:28:41 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:28:41 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Chongqing
+2025-12-22 08:28:41 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=29.5647398, lon=106.5478767
+2025-12-22 08:28:41 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:28:41 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Chongqing, CN
+2025-12-22 08:28:42 INFO  [Thread-4] c.w.service.GeocodingService - Found 4 suggestions for query: Chongqing, CN
+2025-12-22 08:28:42 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=29.5647398, lon=106.5478767
+2025-12-22 08:28:42 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Chongqing
+2025-12-22 08:29:51 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:29:52 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:29:52 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Chongqing
+2025-12-22 08:29:52 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=29.5647398, lon=106.5478767
+2025-12-22 08:29:52 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:29:52 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Chongqing, CN
+2025-12-22 08:29:52 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=29.5647398, lon=106.5478767
+2025-12-22 08:29:52 INFO  [Thread-4] c.w.service.GeocodingService - Found 4 suggestions for query: Chongqing, CN
+2025-12-22 08:29:52 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Chongqing
+2025-12-22 08:30:58 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:30:59 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:30:59 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Chongqing
+2025-12-22 08:30:59 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=29.5647398, lon=106.5478767
+2025-12-22 08:30:59 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:30:59 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Chongqing, CN
+2025-12-22 08:30:59 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=29.5647398, lon=106.5478767
+2025-12-22 08:30:59 INFO  [Thread-4] c.w.service.GeocodingService - Found 4 suggestions for query: Chongqing, CN
+2025-12-22 08:31:00 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Chongqing
+2025-12-22 08:45:23 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:45:23 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:45:23 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Chongqing
+2025-12-22 08:45:23 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=29.5647398, lon=106.5478767
+2025-12-22 08:45:24 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:45:24 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Chongqing, CN
+2025-12-22 08:45:24 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=29.5647398, lon=106.5478767
+2025-12-22 08:45:24 INFO  [Thread-4] c.w.service.GeocodingService - Found 4 suggestions for query: Chongqing, CN
+2025-12-22 08:45:24 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Chongqing
+2025-12-22 08:48:36 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:48:37 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:48:37 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Chongqing
+2025-12-22 08:48:37 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=29.5647398, lon=106.5478767
+2025-12-22 08:48:37 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:48:37 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Chongqing, CN
+2025-12-22 08:48:37 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=29.5647398, lon=106.5478767
+2025-12-22 08:48:37 INFO  [Thread-4] c.w.service.GeocodingService - Found 4 suggestions for query: Chongqing, CN
+2025-12-22 08:48:37 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Chongqing
+2025-12-22 08:57:20 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 08:57:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 08:57:21 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Chongqing
+2025-12-22 08:57:21 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=29.5647398, lon=106.5478767
+2025-12-22 08:57:21 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 08:57:21 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Chongqing, CN
+2025-12-22 08:57:21 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=29.5647398, lon=106.5478767
+2025-12-22 08:57:21 INFO  [Thread-4] c.w.service.GeocodingService - Found 4 suggestions for query: Chongqing, CN
+2025-12-22 08:57:22 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Chongqing
+2025-12-22 08:58:16 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: ке
+2025-12-22 08:58:17 INFO  [Thread-5] c.w.service.GeocodingService - Found 4 suggestions for query: ке
+2025-12-22 08:58:18 INFO  [Thread-6] c.w.service.GeocodingService - Fetching city suggestions for query: кем
+2025-12-22 08:58:18 INFO  [Thread-6] c.w.service.GeocodingService - Found 5 suggestions for query: кем
+2025-12-22 08:58:18 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: кеме
+2025-12-22 08:58:18 INFO  [Thread-7] c.w.service.GeocodingService - Found 5 suggestions for query: кеме
+2025-12-22 08:58:19 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: кемег
+2025-12-22 08:58:19 INFO  [Thread-8] c.w.service.GeocodingService - Found 0 suggestions for query: кемег
+2025-12-22 08:58:19 INFO  [Thread-9] c.w.service.GeocodingService - Fetching city suggestions for query: кеме
+2025-12-22 08:58:19 INFO  [Thread-9] c.w.service.GeocodingService - Found 5 suggestions for query: кеме
+2025-12-22 08:58:19 INFO  [Thread-10] c.w.service.GeocodingService - Fetching city suggestions for query: кемер
+2025-12-22 08:58:19 INFO  [Thread-10] c.w.service.GeocodingService - Found 5 suggestions for query: кемер
+2025-12-22 08:58:20 INFO  [Thread-11] c.w.service.GeocodingService - Fetching city suggestions for query: кемеро
+2025-12-22 08:58:20 INFO  [Thread-11] c.w.service.GeocodingService - Found 1 suggestions for query: кемеро
+2025-12-22 08:58:20 INFO  [Thread-12] c.w.service.GeocodingService - Fetching city suggestions for query: кемеров
+2025-12-22 08:58:20 INFO  [Thread-12] c.w.service.GeocodingService - Found 0 suggestions for query: кемеров
+2025-12-22 08:58:20 INFO  [Thread-13] c.w.service.GeocodingService - Fetching city suggestions for query: кемерово
+2025-12-22 08:58:20 INFO  [Thread-13] c.w.service.GeocodingService - Found 1 suggestions for query: кемерово
+2025-12-22 08:58:22 INFO  [Thread-14] c.w.service.GeocodingService - Fetching city suggestions for query: кемерово
+2025-12-22 08:58:22 INFO  [Thread-14] c.w.service.GeocodingService - Found 1 suggestions for query: кемерово
+2025-12-22 08:58:22 INFO  [Thread-15] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:58:22 INFO  [Thread-17] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 08:58:22 INFO  [Thread-16] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 08:58:22 INFO  [Thread-17] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 08:58:22 INFO  [Thread-16] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:58:22 INFO  [Thread-15] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 08:58:22 INFO  [Thread-16] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 08:58:22 INFO  [Thread-15] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 09:01:01 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 09:01:02 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 09:01:02 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 09:01:02 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 09:01:02 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 09:01:02 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 09:01:02 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 09:01:02 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 09:01:03 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 09:05:53 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 09:05:54 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 09:05:54 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 09:05:54 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 09:05:54 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 09:05:54 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 09:05:55 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 09:05:55 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 09:05:55 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 09:08:31 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 09:08:31 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 09:08:31 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 09:08:31 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 09:08:32 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 09:08:32 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 09:08:32 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 09:08:32 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 09:08:32 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 09:09:30 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 09:09:31 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 09:09:31 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 09:09:31 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 09:09:31 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 09:09:31 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 09:09:32 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 09:09:32 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 09:09:32 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-22 09:20:10 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-22 09:20:11 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-22 09:20:11 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-22 09:20:11 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-22 09:20:12 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-22 09:20:12 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-22 09:20:12 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-22 09:20:12 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-22 09:20:12 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
