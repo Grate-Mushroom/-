@@ -1,0 +1,414 @@
+2025-12-25 00:00:40 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:00:43 INFO  [Thread-7] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:00:43 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 00:00:44 INFO  [Thread-8] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 00:00:50 ERROR [Thread-6] c.weatherapp.service.WeatherService - Error fetching current weather
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:917)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.service.WeatherService.getCurrentWeather(WeatherService.java:42)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.controller.MainController.updateWeatherData(MainController.java:208)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.controller.MainController$5.call(MainController.java:432)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.controller.MainController$5.call(MainController.java:429)
+	at javafx.graphics@21.0.3/javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:618)
+	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:561)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$2(MultiExchange.java:480)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.stopOnError(SSLFlowDelegate.java:1013)
+	at java.base/java.util.concurrent.CompletableFuture.uniExceptionally(CompletableFuture.java:1011)
+	at java.base/java.util.concurrent.CompletableFuture$UniExceptionally.tryFire(CompletableFuture.java:995)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:295)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.errorCommon(SubscriberWrapper.java:421)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.errorCommon(SSLFlowDelegate.java:384)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.onError(SubscriberWrapper.java:412)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:649)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:859)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalError(SocketTube.java:808)
+	at java.net.http/jdk.internal.net.http.SocketTube.signalClosed(SocketTube.java:159)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.close(PlainHttpConnection.java:431)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.close(AsyncSSLConnection.java:117)
+	at java.net.http/jdk.internal.net.http.Exchange$ConnectionAborter.closeConnection(Exchange.java:169)
+	at java.net.http/jdk.internal.net.http.Exchange$ConnectionAborter.closeConnection(Exchange.java:152)
+	at java.net.http/jdk.internal.net.http.Exchange.cancel(Exchange.java:259)
+	at java.net.http/jdk.internal.net.http.MultiExchange.cancel(MultiExchange.java:259)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection$ConnectTimerEvent.handle(PlainHttpConnection.java:102)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1751)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1348)
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:619)
+	... 38 common frames omitted
+2025-12-25 00:00:53 ERROR [Thread-7] c.weatherapp.service.WeatherService - Error fetching current weather
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:917)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.service.WeatherService.getCurrentWeather(WeatherService.java:42)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.controller.MainController.updateWeatherData(MainController.java:208)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.controller.MainController$4.call(MainController.java:188)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.controller.MainController$4.call(MainController.java:185)
+	at javafx.graphics@21.0.3/javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:618)
+	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:561)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$2(MultiExchange.java:480)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.stopOnError(SSLFlowDelegate.java:1013)
+	at java.base/java.util.concurrent.CompletableFuture.uniExceptionally(CompletableFuture.java:1011)
+	at java.base/java.util.concurrent.CompletableFuture$UniExceptionally.tryFire(CompletableFuture.java:995)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:295)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.errorCommon(SubscriberWrapper.java:421)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.errorCommon(SSLFlowDelegate.java:384)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.onError(SubscriberWrapper.java:412)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:649)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:859)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalError(SocketTube.java:808)
+	at java.net.http/jdk.internal.net.http.SocketTube.signalClosed(SocketTube.java:159)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.close(PlainHttpConnection.java:431)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.close(AsyncSSLConnection.java:117)
+	at java.net.http/jdk.internal.net.http.Exchange$ConnectionAborter.closeConnection(Exchange.java:169)
+	at java.net.http/jdk.internal.net.http.Exchange$ConnectionAborter.closeConnection(Exchange.java:152)
+	at java.net.http/jdk.internal.net.http.Exchange.cancel(Exchange.java:259)
+	at java.net.http/jdk.internal.net.http.MultiExchange.cancel(MultiExchange.java:259)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection$ConnectTimerEvent.handle(PlainHttpConnection.java:102)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1751)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1348)
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:619)
+	... 38 common frames omitted
+2025-12-25 00:03:00 INFO  [Thread-10] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 00:03:00 INFO  [Thread-9] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:03:00 INFO  [Thread-10] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 00:03:10 ERROR [Thread-9] c.weatherapp.service.WeatherService - Error fetching current weather
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:917)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.service.WeatherService.getCurrentWeather(WeatherService.java:42)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.controller.MainController.updateWeatherData(MainController.java:208)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.controller.MainController$4.call(MainController.java:188)
+	at com.weatherapp@1.0-SNAPSHOT/com.weatherapp.controller.MainController$4.call(MainController.java:185)
+	at javafx.graphics@21.0.3/javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:618)
+	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:561)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$2(MultiExchange.java:480)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.stopOnError(SSLFlowDelegate.java:1013)
+	at java.base/java.util.concurrent.CompletableFuture.uniExceptionally(CompletableFuture.java:1011)
+	at java.base/java.util.concurrent.CompletableFuture$UniExceptionally.tryFire(CompletableFuture.java:995)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:295)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.errorCommon(SubscriberWrapper.java:421)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.errorCommon(SSLFlowDelegate.java:384)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.onError(SubscriberWrapper.java:412)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:649)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:859)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalError(SocketTube.java:808)
+	at java.net.http/jdk.internal.net.http.SocketTube.signalClosed(SocketTube.java:159)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.close(PlainHttpConnection.java:431)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.close(AsyncSSLConnection.java:117)
+	at java.net.http/jdk.internal.net.http.Exchange$ConnectionAborter.closeConnection(Exchange.java:169)
+	at java.net.http/jdk.internal.net.http.Exchange$ConnectionAborter.closeConnection(Exchange.java:152)
+	at java.net.http/jdk.internal.net.http.Exchange.cancel(Exchange.java:259)
+	at java.net.http/jdk.internal.net.http.MultiExchange.cancel(MultiExchange.java:259)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection$ConnectTimerEvent.handle(PlainHttpConnection.java:102)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1751)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1348)
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:619)
+	... 38 common frames omitted
+2025-12-25 00:11:16 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-25 00:11:17 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-25 00:11:17 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-25 00:11:17 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:11:17 INFO  [Thread-3] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:11:17 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-25 00:11:17 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 00:11:17 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 00:11:17 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 00:11:17 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 00:11:20 INFO  [Thread-5] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:11:20 INFO  [Thread-5] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:11:39 INFO  [Thread-5] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 00:11:40 INFO  [Thread-5] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 00:12:04 INFO  [Thread-6] c.w.service.GeocodingService - Fetching city suggestions for query: mo
+2025-12-25 00:12:04 INFO  [Thread-6] c.w.service.GeocodingService - Found 5 suggestions for query: mo
+2025-12-25 00:12:06 INFO  [Thread-7] c.weatherapp.service.WeatherService - Fetching current weather for lat=66.3110969, lon=14.1386991
+2025-12-25 00:12:06 INFO  [Thread-7] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=66,3111&lon=14,1387&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:12:06 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: Mo i Rana, NO
+2025-12-25 00:12:06 INFO  [Thread-8] c.w.service.GeocodingService - Found 1 suggestions for query: Mo i Rana, NO
+2025-12-25 00:12:06 INFO  [Thread-7] c.weatherapp.service.WeatherService - Fetching forecast for lat=66.3110969, lon=14.1386991
+2025-12-25 00:21:42 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-25 00:21:43 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized successfully
+2025-12-25 00:21:43 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-25 00:21:43 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:21:43 INFO  [Thread-3] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:21:43 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-25 00:21:43 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 00:21:44 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 00:21:44 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 00:21:44 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 00:21:50 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: mo
+2025-12-25 00:21:50 INFO  [Thread-5] c.w.service.GeocodingService - Found 5 suggestions for query: mo
+2025-12-25 00:21:50 INFO  [Thread-6] c.w.service.GeocodingService - Fetching city suggestions for query: mos
+2025-12-25 00:21:50 INFO  [Thread-6] c.w.service.GeocodingService - Found 5 suggestions for query: mos
+2025-12-25 00:21:51 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: mosk
+2025-12-25 00:21:51 INFO  [Thread-7] c.w.service.GeocodingService - Found 0 suggestions for query: mosk
+2025-12-25 00:21:51 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: mosko
+2025-12-25 00:21:51 INFO  [Thread-8] c.w.service.GeocodingService - Found 5 suggestions for query: mosko
+2025-12-25 00:21:53 INFO  [Thread-9] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-25 00:21:53 INFO  [Thread-9] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,7504&lon=37,6175&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:21:53 INFO  [Thread-10] c.w.service.GeocodingService - Fetching city suggestions for query: Moscow, RU
+2025-12-25 00:21:54 INFO  [Thread-10] c.w.service.GeocodingService - Found 1 suggestions for query: Moscow, RU
+2025-12-25 00:21:57 INFO  [Thread-11] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-25 00:21:57 INFO  [Thread-11] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,7504&lon=37,6175&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:21:57 INFO  [Thread-11] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-25 00:21:57 INFO  [Thread-11] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-25 00:22:13 INFO  [Thread-9] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-25 00:37:41 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-25 00:37:42 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized succes
+2025-12-25 00:37:42 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Moscow
+2025-12-25 00:37:42 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.7504461, lon=37.6174943
+2025-12-25 00:37:42 INFO  [Thread-3] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,7504&lon=37,6175&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:37:42 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-25 00:37:42 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Moscow, RU
+2025-12-25 00:37:43 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.7504461, lon=37.6174943
+2025-12-25 00:37:43 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Moscow, RU
+2025-12-25 00:37:43 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Moscow
+2025-12-25 00:37:48 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: rt
+2025-12-25 00:37:48 INFO  [Thread-5] c.w.service.GeocodingService - Found 5 suggestions for query: rt
+2025-12-25 00:37:48 INFO  [Thread-6] c.w.service.GeocodingService - Fetching city suggestions for query: rtv
+2025-12-25 00:37:48 INFO  [Thread-6] c.w.service.GeocodingService - Found 1 suggestions for query: rtv
+2025-12-25 00:37:48 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: rtvt
+2025-12-25 00:37:48 INFO  [Thread-7] c.w.service.GeocodingService - Found 0 suggestions for query: rtvt
+2025-12-25 00:37:49 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: rtvth
+2025-12-25 00:37:49 INFO  [Thread-8] c.w.service.GeocodingService - Found 0 suggestions for query: rtvth
+2025-12-25 00:37:50 INFO  [Thread-9] c.w.service.GeocodingService - Fetching city suggestions for query: rtvt
+2025-12-25 00:37:50 INFO  [Thread-9] c.w.service.GeocodingService - Found 0 suggestions for query: rtvt
+2025-12-25 00:37:50 INFO  [Thread-10] c.w.service.GeocodingService - Fetching city suggestions for query: rtv
+2025-12-25 00:37:50 INFO  [Thread-11] c.w.service.GeocodingService - Fetching city suggestions for query: rt
+2025-12-25 00:37:50 INFO  [Thread-10] c.w.service.GeocodingService - Found 1 suggestions for query: rtv
+2025-12-25 00:37:51 INFO  [Thread-11] c.w.service.GeocodingService - Found 5 suggestions for query: rt
+2025-12-25 00:37:52 INFO  [Thread-12] c.w.service.GeocodingService - Fetching city suggestions for query: ke
+2025-12-25 00:37:52 INFO  [Thread-12] c.w.service.GeocodingService - Found 4 suggestions for query: ke
+2025-12-25 00:37:52 INFO  [Thread-13] c.w.service.GeocodingService - Fetching city suggestions for query: kem
+2025-12-25 00:37:53 INFO  [Thread-13] c.w.service.GeocodingService - Found 5 suggestions for query: kem
+2025-12-25 00:37:53 INFO  [Thread-14] c.w.service.GeocodingService - Fetching city suggestions for query: keme
+2025-12-25 00:37:53 INFO  [Thread-14] c.w.service.GeocodingService - Found 5 suggestions for query: keme
+2025-12-25 00:37:53 INFO  [Thread-15] c.w.service.GeocodingService - Fetching city suggestions for query: kemer
+2025-12-25 00:37:53 INFO  [Thread-15] c.w.service.GeocodingService - Found 5 suggestions for query: kemer
+2025-12-25 00:37:54 INFO  [Thread-16] c.w.service.GeocodingService - Fetching city suggestions for query: kemero
+2025-12-25 00:37:54 INFO  [Thread-16] c.w.service.GeocodingService - Found 1 suggestions for query: kemero
+2025-12-25 00:37:56 INFO  [Thread-17] c.w.service.GeocodingService - Fetching city suggestions for query: kemerov
+2025-12-25 00:37:56 INFO  [Thread-17] c.w.service.GeocodingService - Found 0 suggestions for query: kemerov
+2025-12-25 00:37:57 INFO  [Thread-18] c.w.service.GeocodingService - Fetching city suggestions for query: kemerovo
+2025-12-25 00:37:57 INFO  [Thread-18] c.w.service.GeocodingService - Found 1 suggestions for query: kemerovo
+2025-12-25 00:37:58 INFO  [Thread-19] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:37:58 INFO  [Thread-19] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:37:58 INFO  [Thread-20] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 00:37:59 INFO  [Thread-20] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 00:38:11 INFO  [Thread-21] c.w.service.GeocodingService - Fetching city suggestions for query: rt
+2025-12-25 00:38:11 INFO  [Thread-21] c.w.service.GeocodingService - Found 5 suggestions for query: rt
+2025-12-25 00:38:14 INFO  [Thread-22] c.w.service.GeocodingService - Fetching city suggestions for query: ke
+2025-12-25 00:38:14 INFO  [Thread-22] c.w.service.GeocodingService - Found 4 suggestions for query: ke
+2025-12-25 00:38:16 INFO  [Thread-23] c.w.service.GeocodingService - Fetching city suggestions for query: kem
+2025-12-25 00:38:16 INFO  [Thread-24] c.w.service.GeocodingService - Fetching city suggestions for query: keme
+2025-12-25 00:38:16 INFO  [Thread-24] c.w.service.GeocodingService - Found 5 suggestions for query: keme
+2025-12-25 00:38:16 INFO  [Thread-25] c.w.service.GeocodingService - Fetching city suggestions for query: kemer
+2025-12-25 00:38:16 INFO  [Thread-25] c.w.service.GeocodingService - Found 5 suggestions for query: kemer
+2025-12-25 00:38:18 INFO  [Thread-26] c.w.service.GeocodingService - Fetching city suggestions for query: kemero
+2025-12-25 00:38:18 INFO  [Thread-19] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 00:38:18 INFO  [Thread-26] c.w.service.GeocodingService - Found 1 suggestions for query: kemero
+2025-12-25 00:38:18 INFO  [Thread-19] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 00:38:19 INFO  [Thread-27] c.w.service.GeocodingService - Fetching city suggestions for query: kemerov
+2025-12-25 00:38:19 INFO  [Thread-27] c.w.service.GeocodingService - Found 0 suggestions for query: kemerov
+2025-12-25 00:38:35 INFO  [Thread-23] c.w.service.GeocodingService - Found 5 suggestions for query: kem
+2025-12-25 00:38:38 INFO  [Thread-28] c.w.service.GeocodingService - Fetching city suggestions for query: kemerovo
+2025-12-25 00:38:38 INFO  [Thread-28] c.w.service.GeocodingService - Found 1 suggestions for query: kemerovo
+2025-12-25 00:38:39 INFO  [Thread-29] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:38:39 INFO  [Thread-30] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 00:38:39 INFO  [Thread-29] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:38:40 INFO  [Thread-29] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 00:38:59 INFO  [Thread-30] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 00:39:41 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-25 00:39:42 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized succes
+2025-12-25 00:39:42 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-25 00:39:42 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:39:42 INFO  [Thread-3] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:39:42 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-25 00:39:42 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 00:39:42 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 00:39:42 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 00:39:43 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 00:40:16 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-25 00:40:17 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized succes
+2025-12-25 00:40:17 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-25 00:40:17 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:40:17 INFO  [Thread-3] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:40:17 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-25 00:40:17 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 00:40:17 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 00:40:17 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 00:40:17 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 00:40:33 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-25 00:40:34 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized succes
+2025-12-25 00:40:34 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-25 00:40:34 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:40:34 INFO  [Thread-3] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:40:34 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-25 00:40:34 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 00:40:34 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 00:40:34 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 00:40:35 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 00:40:39 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: mo
+2025-12-25 00:40:39 INFO  [Thread-5] c.w.service.GeocodingService - Found 5 suggestions for query: mo
+2025-12-25 00:40:41 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching current weather for lat=63.555757, lon=19.4004709
+2025-12-25 00:40:41 INFO  [Thread-6] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=63,5558&lon=19,4005&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:40:41 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: Mo, SE
+2025-12-25 00:40:41 INFO  [Thread-7] c.w.service.GeocodingService - Found 5 suggestions for query: Mo, SE
+2025-12-25 00:41:00 INFO  [Thread-6] c.weatherapp.service.WeatherService - Fetching forecast for lat=63.555757, lon=19.4004709
+2025-12-25 00:41:00 INFO  [Thread-6] c.weatherapp.service.DatabaseService - Saved favorite city: Mo
+2025-12-25 00:41:09 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-25 00:41:09 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized succes
+2025-12-25 00:41:09 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Mo
+2025-12-25 00:41:09 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=63.555757, lon=19.4004709
+2025-12-25 00:41:09 INFO  [Thread-3] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=63,5558&lon=19,4005&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:41:09 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-25 00:41:10 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Mo, SE
+2025-12-25 00:41:10 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=63.555757, lon=19.4004709
+2025-12-25 00:41:10 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Mo
+2025-12-25 00:41:10 INFO  [Thread-4] c.w.service.GeocodingService - Found 5 suggestions for query: Mo, SE
+2025-12-25 00:41:16 INFO  [Thread-5] c.w.service.GeocodingService - Fetching city suggestions for query: rt
+2025-12-25 00:41:16 INFO  [Thread-5] c.w.service.GeocodingService - Found 5 suggestions for query: rt
+2025-12-25 00:41:16 INFO  [Thread-6] c.w.service.GeocodingService - Fetching city suggestions for query: rtv
+2025-12-25 00:41:17 INFO  [Thread-6] c.w.service.GeocodingService - Found 1 suggestions for query: rtv
+2025-12-25 00:41:17 INFO  [Thread-7] c.w.service.GeocodingService - Fetching city suggestions for query: rtvt
+2025-12-25 00:41:17 INFO  [Thread-7] c.w.service.GeocodingService - Found 0 suggestions for query: rtvt
+2025-12-25 00:41:18 INFO  [Thread-8] c.w.service.GeocodingService - Fetching city suggestions for query: rtv
+2025-12-25 00:41:18 INFO  [Thread-8] c.w.service.GeocodingService - Found 1 suggestions for query: rtv
+2025-12-25 00:41:18 INFO  [Thread-9] c.w.service.GeocodingService - Fetching city suggestions for query: rt
+2025-12-25 00:41:19 INFO  [Thread-9] c.w.service.GeocodingService - Found 5 suggestions for query: rt
+2025-12-25 00:41:20 INFO  [Thread-10] c.w.service.GeocodingService - Fetching city suggestions for query: ke
+2025-12-25 00:41:20 INFO  [Thread-10] c.w.service.GeocodingService - Found 4 suggestions for query: ke
+2025-12-25 00:41:21 INFO  [Thread-11] c.w.service.GeocodingService - Fetching city suggestions for query: kem
+2025-12-25 00:41:21 INFO  [Thread-11] c.w.service.GeocodingService - Found 5 suggestions for query: kem
+2025-12-25 00:41:21 INFO  [Thread-12] c.w.service.GeocodingService - Fetching city suggestions for query: keme
+2025-12-25 00:41:22 INFO  [Thread-12] c.w.service.GeocodingService - Found 5 suggestions for query: keme
+2025-12-25 00:41:22 INFO  [Thread-13] c.w.service.GeocodingService - Fetching city suggestions for query: kemer
+2025-12-25 00:41:22 INFO  [Thread-13] c.w.service.GeocodingService - Found 5 suggestions for query: kemer
+2025-12-25 00:41:22 INFO  [Thread-14] c.w.service.GeocodingService - Fetching city suggestions for query: kemero
+2025-12-25 00:41:22 INFO  [Thread-14] c.w.service.GeocodingService - Found 1 suggestions for query: kemero
+2025-12-25 00:41:23 INFO  [Thread-15] c.w.service.GeocodingService - Fetching city suggestions for query: kemerov
+2025-12-25 00:41:23 INFO  [Thread-15] c.w.service.GeocodingService - Found 0 suggestions for query: kemerov
+2025-12-25 00:41:24 INFO  [Thread-16] c.w.service.GeocodingService - Fetching city suggestions for query: kemerovo
+2025-12-25 00:41:37 INFO  [Thread-17] c.w.service.GeocodingService - Fetching city suggestions for query: ke
+2025-12-25 00:41:37 INFO  [Thread-17] c.w.service.GeocodingService - Found 4 suggestions for query: ke
+2025-12-25 00:41:38 INFO  [Thread-18] c.w.service.GeocodingService - Fetching city suggestions for query: kem
+2025-12-25 00:41:38 INFO  [Thread-18] c.w.service.GeocodingService - Found 5 suggestions for query: kem
+2025-12-25 00:41:39 INFO  [Thread-19] c.w.service.GeocodingService - Fetching city suggestions for query: keme
+2025-12-25 00:41:39 INFO  [Thread-19] c.w.service.GeocodingService - Found 5 suggestions for query: keme
+2025-12-25 00:41:39 INFO  [Thread-20] c.w.service.GeocodingService - Fetching city suggestions for query: kemer
+2025-12-25 00:41:39 INFO  [Thread-20] c.w.service.GeocodingService - Found 5 suggestions for query: kemer
+2025-12-25 00:41:40 INFO  [Thread-21] c.w.service.GeocodingService - Fetching city suggestions for query: kemero
+2025-12-25 00:41:40 INFO  [Thread-21] c.w.service.GeocodingService - Found 1 suggestions for query: kemero
+2025-12-25 00:41:41 INFO  [Thread-22] c.w.service.GeocodingService - Fetching city suggestions for query: kemerov
+2025-12-25 00:41:41 INFO  [Thread-22] c.w.service.GeocodingService - Found 0 suggestions for query: kemerov
+2025-12-25 00:41:42 INFO  [Thread-23] c.w.service.GeocodingService - Fetching city suggestions for query: kemerovo
+2025-12-25 00:41:42 INFO  [Thread-23] c.w.service.GeocodingService - Found 1 suggestions for query: kemerovo
+2025-12-25 00:41:43 INFO  [Thread-16] c.w.service.GeocodingService - Found 1 suggestions for query: kemerovo
+2025-12-25 00:41:44 INFO  [Thread-24] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:41:44 INFO  [Thread-24] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:41:44 INFO  [Thread-25] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 00:41:44 INFO  [Thread-25] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 00:41:44 INFO  [Thread-24] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 00:41:44 INFO  [Thread-24] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 00:54:42 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-25 00:54:43 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized succes
+2025-12-25 00:54:43 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-25 00:54:43 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 00:54:43 INFO  [Thread-3] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 00:54:43 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-25 00:54:43 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 00:54:43 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 00:54:43 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 00:54:44 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 01:06:16 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-25 01:06:17 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized succes
+2025-12-25 01:06:17 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-25 01:06:17 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 01:06:17 INFO  [Thread-3] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 01:06:19 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-25 01:06:19 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 01:06:19 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 01:06:19 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 01:06:19 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 01:07:11 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-25 01:07:11 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized succes
+2025-12-25 01:07:11 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-25 01:07:11 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 01:07:11 INFO  [Thread-3] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 01:07:11 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-25 01:07:12 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 01:07:12 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 01:07:12 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU
+2025-12-25 01:07:12 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 01:30:05 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading weather app
+2025-12-25 01:30:06 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Database initialized succes
+2025-12-25 01:30:06 INFO  [JavaFX Application Thread] c.weatherapp.service.DatabaseService - Loaded favorite city: Kemerovo
+2025-12-25 01:30:06 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching current weather for lat=55.3550907, lon=86.0871213
+2025-12-25 01:30:06 INFO  [Thread-3] c.weatherapp.service.WeatherService - url=https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&appid=293a588b333748336de598c68458e33d&units=metric&lang=ru
+2025-12-25 01:30:06 INFO  [JavaFX Application Thread] com.weatherapp.MainApp - Loading suserfules
+2025-12-25 01:30:06 INFO  [Thread-4] c.w.service.GeocodingService - Fetching city suggestions for query: Kemerovo, RU
+2025-12-25 01:30:06 INFO  [Thread-3] c.weatherapp.service.WeatherService - Fetching forecast for lat=55.3550907, lon=86.0871213
+2025-12-25 01:30:07 INFO  [Thread-3] c.weatherapp.service.DatabaseService - Saved favorite city: Kemerovo
+2025-12-25 01:30:29 INFO  [Thread-4] c.w.service.GeocodingService - Found 1 suggestions for query: Kemerovo, RU

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/25"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.weatherapp.controller.MainController"
+      spacing="20"
+      style="-fx-background-color: linear-gradient(to bottom right, #667eea 0%, #59ABC0 100%);">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <!-- Заголовок -->
+    <HBox alignment="CENTER" spacing="10">
+        <Label text="🌤 Прогноз погоды"
+               style="-fx-text-fill: white; -fx-font-size: 32px; -fx-font-weight: bold;"/>
+    </HBox>
+
+    <!-- Панель поиска -->
+    <VBox spacing="15" style="-fx-background-color: rgba(255,255,255,0.1); -fx-background-radius: 10; -fx-padding: 20;">
+        <Label text="Поиск города:" style="-fx-text-fill: white; -fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <ComboBox fx:id="cityComboBox"
+                      promptText="Введите город..."
+                      editable="true"
+                      prefWidth="400"/>
+
+            <Button fx:id="searchButton"
+                    text="🔍 Поиск"
+                    style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10 20;"/>
+
+            <Button fx:id="refreshButton"
+                    text="🔄 Обновить"
+                    style="-fx-background-color: #2196F3; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10 20;"/>
+        </HBox>
+
+        <!-- Статус -->
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <ProgressIndicator fx:id="progressIndicator" progress="-1" visible="false"/>
+            <Label fx:id="statusLabel" text="Готово" style="-fx-text-fill: white;"/>
+        </HBox>
+    </VBox>
+
+    <!-- Основной контейнер с двумя колонками -->
+    <HBox spacing="30" alignment="TOP_CENTER">
+
+        <!-- ЛЕВАЯ КОЛОНКА-->
+        <VBox spacing="10" prefWidth="650">
+            <Label text="Текущая погода:" style="-fx-text-fill: white; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+            <VBox fx:id="currentWeatherBox"
+                  style="-fx-background-color: rgba(182,222,186,0.8); -fx-background-radius: 15; -fx-padding: 20;"
+                  minHeight="350"/>
+        </VBox>
+
+        <!-- правая -->
+        <VBox spacing="10" prefWidth="300">
+            <Label text="Прогноз на 4 дня:" style="-fx-text-fill: white; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+            <VBox fx:id="forecastContainer"
+                  spacing="15"
+                  alignment="TOP_CENTER"
+                  style="-fx-background-color: rgba(255,255,255,0.1); -fx-background-radius: 15; -fx-padding: 15;"/>
+        </VBox>
+
+    </HBox>
+
+</VBox>
